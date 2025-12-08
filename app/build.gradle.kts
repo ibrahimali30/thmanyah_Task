@@ -69,4 +69,8 @@ dependencies {
     // Testing and debugging dependencies
     testImplementation(libs.hilt.android.testing)
 
+
+    implementation(libs.retrofit.core)
+    implementation(libs.retrofit.kotlin.serialization)
+
 }
