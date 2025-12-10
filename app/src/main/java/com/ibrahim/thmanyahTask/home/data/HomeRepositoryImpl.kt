@@ -8,6 +8,6 @@ import javax.inject.Inject
 class HomeRepositoryImpl @Inject constructor(private val remoteDS: HomeRemoteDS) :
     HomeRepository {
 
-    override suspend fun getHome(name: String): List<Section> =
-        remoteDS.getHome(name)
+    override suspend fun getHomeSectionsList(page: Int): List<Section> =
+        remoteDS.getHomeSectionsList(page)
 }

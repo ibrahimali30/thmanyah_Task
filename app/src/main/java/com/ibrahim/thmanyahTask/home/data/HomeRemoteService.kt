@@ -7,7 +7,7 @@ import retrofit2.http.Query
 interface HomeRemoteService {
 
     @GET("home_sections")
-    suspend fun getHome(
+    suspend fun getHomeSectionsList(
         @Query("page") page: Int,
     ): HomeResult
 }

@@ -63,6 +63,10 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation(libs.androidx.compose.material.iconsExtended)
+
+    implementation(libs.coil.kt.compose)
+    implementation(libs.coil.kt.svg)
 
     ksp(libs.hilt.compiler)
     kspTest(libs.hilt.compiler)
