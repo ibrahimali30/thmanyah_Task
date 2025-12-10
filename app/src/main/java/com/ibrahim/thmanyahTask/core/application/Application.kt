@@ -1,4 +1,4 @@
-package com.ibrahim.thmanyahTask.core
+package com.ibrahim.thmanyahTask.core.application
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
