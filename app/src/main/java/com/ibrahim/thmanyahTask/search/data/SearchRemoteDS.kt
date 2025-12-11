@@ -1,13 +1,11 @@
 package com.ibrahim.thmanyahTask.search.data
 
-import com.ibrahim.thmanyahTask.home.data.model.ContentItem
-import com.ibrahim.thmanyahTask.home.data.model.toDomain
-import com.ibrahim.thmanyahTask.home.domain.model.Section
-import com.ibrahim.thmanyahTask.search.data.model.SearchResult
+import com.ibrahim.thmanyahTask.home.data.model.SectionResponse
+import com.ibrahim.thmanyahTask.search.data.model.SearchSectionResponse
 import javax.inject.Inject
 
 class SearchRemoteDS @Inject constructor(private val service: SearchRemoteService) {
-    suspend fun getSearchSectionsList(query: String): List<ContentItem> {
+    suspend fun getSearchSectionsList(query: String): List<SearchSectionResponse> {
 
         val response = run { service.getSearchSectionsList(query= query) }
         val result = response.searchItems/*.toDomain()*/

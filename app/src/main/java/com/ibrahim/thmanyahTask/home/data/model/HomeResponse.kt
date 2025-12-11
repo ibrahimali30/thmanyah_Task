@@ -82,16 +82,16 @@ data class ContentItem(
     @SerialName("avatar_url")
     val avatarUrl: String,
     val duration: Long,
-    val score: Double,
+//    val score: Double,
     // Optional fields for different content types
     @SerialName("podcast_id")
     val podcastId: String? = null,
     @SerialName("episode_count")
     val episodeCount: Int? = null,
     val language: String? = null,
-    val priority: Int? = null,
-    @SerialName("popularityScore")
-    val popularityScore: Int? = null,
+//    val priority: Int? = null,
+//    @SerialName("popularityScore")
+//    val popularityScore: Int? = null,
     @SerialName("episode_id")
     val episodeId: String? = null,
     @SerialName("season_number")

@@ -19,6 +19,7 @@ import com.ibrahim.thmanyahTask.R
 import com.ibrahim.thmanyahTask.core.presentation.component.GreetingSection
 import com.ibrahim.thmanyahTask.core.presentation.component.PodcastBottomNavigationBar
 import com.ibrahim.thmanyahTask.home.presentation.HomeScreen
+import com.ibrahim.thmanyahTask.search.presentation.SearchScreen
 import com.ibrahim.thmanyahTask.ui.theme.ThmanyahTaskTheme
 
 @Composable
@@ -27,13 +28,12 @@ fun MainScreenScaffold(
     selectedTab: Int = 0,
     onTabSelect: (Int) -> Unit = {},
 ) {
-    var internalSelectedTab by remember(selectedTab) { mutableIntStateOf(selectedTab) }
 
     Scaffold(
         modifier = modifier,
         bottomBar = {
             PodcastBottomNavigationBar(
-                selectedTab = internalSelectedTab,
+                selectedTab = selectedTab,
                 onTabSelect = { onTabSelect(it) },
             )
         },
@@ -51,7 +51,9 @@ fun MainScreenScaffold(
             }
 
             1 -> {
-                ToDoScreen()
+                SearchScreen(
+                    modifier = Modifier.padding(paddingValues)
+                )
             }
 
             else -> {
@@ -77,7 +79,6 @@ fun ToDoScreen() {
     }
 }
 
-@Suppress("ktlint:standard:function-naming")
 @Preview(showBackground = true)
 @Composable
 private fun DefaultPreview() {
