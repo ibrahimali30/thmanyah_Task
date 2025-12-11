@@ -41,7 +41,7 @@ This separation ensures that each layer is independent, testable, and easy to ma
 ---
 
 ## 📸 Screenshots
-<img width="458" height="829" alt="Screenshot 2025-12-11 at 10 11 42 AM" src="https://github.com/user-attachments/assets/55cf59cf-55f7-462f-a2ec-5659203d95f9" />
+<img width="458" height="829" alt="Screenshot 2025-12-11 at 10 11 42 AM" src="https://github.com/user-attachments/assets/f3f1a825-edf4-43c4-a21e-f0cd2fcf27ec" />
 <img width="458" height="829" alt="Screenshot 2025-12-11 at 10 11 50 AM" src="https://github.com/user-attachments/assets/b9bbc8b0-77ae-49e5-8585-59b969141734" />
 <img width="458" height="829" alt="Screenshot 2025-12-11 at 10 13 23 AM" src="https://github.com/user-attachments/assets/8ee94761-7d63-4ed5-b6b7-b932650ff26f" />
 <img width="458" height="829" alt="Screenshot 2025-12-11 at 10 13 46 AM" src="https://github.com/user-attachments/assets/bf9e085e-42e8-4696-ace4-c9cf01c87a0f" />
