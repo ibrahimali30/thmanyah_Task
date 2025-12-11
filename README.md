@@ -2,7 +2,7 @@
 A dynamic mobile app that displays podcasts, episodes, audiobooks, and audio articles in scrollable content sections.
 The home screen loads data from an API and updates automatically, with each section shown in its own layout style.
 The app also includes a fast, debounced search screen that displays results in the same modular format. Built using MVVM, 
-Compose UI (Android), and SwiftUI (iOS), with clean architecture and unit tests for core logic.
+Compose UI (Android), with clean architecture and unit tests for core logic.
 
 ---
 
