@@ -18,10 +18,6 @@ class HomeViewModel
         private val _uiState = MutableStateFlow(HomeUiState())
         val uiState = _uiState.asStateFlow()
 
-        init {
-            loadNextPage()
-        }
-
         fun loadNextPage() {
             viewModelScope.launch {
                 _uiState.value =

@@ -79,6 +79,8 @@ dependencies {
 
     // Testing and debugging dependencies
     testImplementation(libs.hilt.android.testing)
+    // Coroutines test for controlling Dispatchers.Main in unit tests
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
 
 
     implementation(libs.retrofit.core)
@@ -86,4 +88,11 @@ dependencies {
 
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.okhttp.logging)
+
+
+    testImplementation(libs.mockk)
+    testImplementation(libs.coroutines.test)
+    testImplementation(libs.kotlin.test)
+    testImplementation(libs.turbine)
 }
+

@@ -27,7 +27,6 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.example.feature.search.SearchResultItem
 import com.ibrahim.thmanyahTask.R
 import com.ibrahim.thmanyahTask.core.presentation.component.PodcastCircularProgressIndicator
 import com.ibrahim.thmanyahTask.core.presentation.component.PodcastOutlinedTextField
