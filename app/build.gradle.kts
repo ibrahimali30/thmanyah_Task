@@ -22,6 +22,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "BASE_URL", "\"https://api-v2-b2sit6oh3a-uc.a.run.app/\"")
+        buildConfigField("String", "Search_BASE_URL", "\"https://mock.apidog.com/m1/735111-711675-default/\"")
 
     }
 

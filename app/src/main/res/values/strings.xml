@@ -18,6 +18,16 @@
     <string name="library_empty_content">You haven\'t saved any episodes yet!</string>
     <string name="settings_empty_content">Under development</string>
 
+    <!-- Search Screen -->
+    <string name="feature_search_title">Search</string>
+    <string name="feature_search_placeholder">Search for podcasts, episodes, etc.</string>
+    <string name="feature_search_back">Back</string>
+    <string name="feature_search_clear">Clear</string>
+    <string name="feature_search_no_results">No results found for \"%1$s\"</string>
+    <string name="feature_search_start_searching">Start typing to search</string>
+    <string name="feature_search_clear_all">Clear All</string>
+    <string name="feature_search_recent_searches">Recent Searches</string>
+
     <!-- Filter Chips -->
     <string name="chip_trending">Trending</string>
     <string name="chip_new_releases">New Releases</string>
